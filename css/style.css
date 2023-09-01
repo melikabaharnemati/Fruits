@@ -33,7 +33,7 @@ a {
 .content{
     background-color: #fff;
     width: 850px;
-    height: 650px;
+    height: auto;
     border-radius: 50px;
     background-image: linear-gradient(90deg,#d57589,#ffc7a3);
     box-shadow: -77px 30px 105px 24px #b09bd4;
@@ -115,6 +115,19 @@ a {
     padding-bottom: 1rem;
     border-radius: 0px 0px 20px 20px;
 }
+@keyframes toolstheme
+{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.ring img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    animation: 6s linear 0.2s infinite toolstheme;
+}
+
 .copyright{
     position: relative;
     text-align: center;
