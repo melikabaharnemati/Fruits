@@ -1,4 +1,4 @@
-![fruits](https://github.com/melikabaharnemati/Fruits/assets/100845898/1b4b9c1b-8738-402d-ab5a-5b6294fddb68)Example of a shake and juice website
+Example of a shake and juice website
 
 --Output
 
